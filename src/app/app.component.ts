@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Quote } from '../models/quote';
+import { Quote } from './core/models/quote.model';
 import { catchError } from 'rxjs';
 
 @Component({
